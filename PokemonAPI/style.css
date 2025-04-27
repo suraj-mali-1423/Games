@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins  serif;
+}
+body{
+    background-color: #eff3ff;
+}
+.container{
+    width: 350px;
+    position: absolute;
+    transform: translate(-50% , -50%);
+    left: 50%;
+    top : 50%;
+}
+#Card {
+    width: 100%;
+    background: radial-gradient(
+        circle at 50% 0%, orange 36%, #ffffff 36%
+    );
+    padding: 30px 20px; 
+    box-shadow: 0 20px 30px rgba(0 , 0 , 0,0.15);
+    border-radius: 10px;
+}
+.Image-Pok{
+    display: block;
+    width: 200x;
+    max-height: 180px;
+    margin: 20px auto;
+
+}
+.HP{
+    width: 80px;
+    border-radius: 20px;
+    text-align: center;
+    margin: 8px 0px;
+    margin-left: auto;
+    padding: 5px 10px;
+    align-items: center;
+    background-color: white;
+}
+.Pok-Name{
+      text-align: center;
+      font-weight: 700;
+      align-items: center;
+      color: saddlebrown;
+}
+.Types1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Types1 span{
+    background-color: rgb(135, 226, 121);
+    margin-top: 30px    ;
+    font-size: 18px;
+    font-weight: 400;
+    color: black ;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-left: 20px;
+}
+
+.Other{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+.Other span{
+      font-weight: 400;
+      color: #363630;
+}
+.Next{
+    padding: 10px 20px ;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 35%;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    transition: all 0.3 ease;
+}
+.Next:hover{
+       transform: scale(1.2);
+}
